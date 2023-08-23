@@ -2,7 +2,7 @@ import os
 import json
 from schema_gen import generate_schema
 
-file_path = r'.\data'  # Use a raw string to handle backslashes
+file_path = r'.\data' 
 
 def read_json_file(data):
     with open(data, 'r') as file:
