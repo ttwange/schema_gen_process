@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "appName": {
+            "type": "str",
+            "tag": "",
+            "description": "",
+            "required": false
+        },
+        "eventType": {
+            "type": "str",
+            "tag": "",
+            "description": "",
+            "required": false
+        },
+        "subEventType": {
+            "type": "str",
+            "tag": "",
+            "description": "",
+            "required": false
+        },
+        "sensitive": {
+            "type": "bool",
+            "tag": "",
+            "description": "",
+            "required": false
+        }
+    }
+}
